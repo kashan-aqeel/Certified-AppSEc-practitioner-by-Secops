@@ -91,5 +91,31 @@ Client-side validation: This is for user experience, not security. It can provid
 
 7. Rename files: Rename uploaded files with a randomly generated name (e.g., a UUID) to prevent attackers from predicting and executing their uploaded script.
 
+### Cross-Site Scripting (XSS)
+### Definition:
+
+A client-side attack where an attacker injects malicious scripts (usually JavaScript) into web pages viewed by other users.
+Goal: Steal cookies, session tokens, or perform actions as the victim.
+
+### How It Works:
+
+Attacker injects malicious code (e.g., <script>alert('Hacked')</script>) into a vulnerable input field.
+
+The server or page reflects it back or stores it without sanitizing.
+
+When another user loads the page, the malicious script executes in their browser.
+
+### Types of XSS
+1. Reflected XSS:Payload is reflected off the server immediately
+2. DOM-based XSS: Payload is stored in the database or page and served to many users.
+3. Stored XSS: Happens entirely in the browser, due to insecure JavaScript manipulation of the DOM.
+
+   <img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/23ac7060-391c-4398-b6ac-6f1d045d4ca7" />
+
+#### SQL Injection:
+
+
+
+
 
 
