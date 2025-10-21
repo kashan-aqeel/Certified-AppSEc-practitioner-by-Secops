@@ -120,7 +120,31 @@ When another user loads the page, the malicious script executes in their browser
 
 * An encoding technique, in which a message is encoded by using an encryption algorith in such a way that only authorized personel can access the message or information.
 * Special type of encoding for trasfering private data.
-* Plain text ◄♦╤ encryption algorithms like AES or RSa encryption ◄♦╤ Using a secret key called *** CIPHER ***.
+* Plain text ◄♦ encryption algorithms like AES or RSa encryption ◄♦ Using a secret key called <ins> CIPHER </ins> .
+* THe encrypted data is called <ins> Cipher text </ins>, and finally, the secret key can be used by the intended recipient to convert it back to plain tect.
+* There are two tpes of encryption algorithms:
+  1) Symmetric ◄♦ Data is encoded and decoded with the help of same key.
+  2) Asymmetric ◄♦ Data is encoded and decoded with the help of different keys that is <ins> public or private key </ins>.
+
+#### Encoding :
+
+* Data is transformed from one form to another.
+* Main aim is to transform data into a form that is radable by most of the systems or that can be used by any external process.
+* It can be used for reducing size of audio and video files.
+* Each Audio and video format files have coder - decoder .(codec) program.
+* It is used to into appropriate format and then decodes it for playback.
+
+  - E.g : ASC|| , BASE64, UNICODE.
+
+#### Hashing:
+
+* Data is converted to the ahsh using some hashing function, whic can be any number.
+* Various hashing algorithms are MD5 and SHA256.
+* Data once hashed is non-reversible.
+* Hash function is used to map data of arbitory size to data of fixed size.
+* The data structure <ins> HASH TABLE </ins> is used for storing data.
+  
+    
 
 
 
