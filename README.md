@@ -116,6 +116,12 @@ When another user loads the page, the malicious script executes in their browser
 
 <img width="1230" height="811" alt="image" src="https://github.com/user-attachments/assets/99e279f8-2798-4693-b943-d7944ef674ea" />
 
+#### Encryption :
+
+* An encoding technique, in which a message is encoded by using an encryption algorith in such a way that only authorized personel can access the message or information.
+* Special type of encoding for trasfering private data.
+* Plain text ◄♦╤ encryption algorithms like AES or RSa encryption ◄♦╤ Using a secret key called *** CIPHER ***.
+
 
 
 
