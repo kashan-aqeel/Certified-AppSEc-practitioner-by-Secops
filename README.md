@@ -199,7 +199,9 @@ Lack of rate limiting on login attempts allows attackers to repeatedly guess cre
 ##### e) Offline Brute Forece:
 * happens after a data breach where password hashes are stolen.
 * Attacker cracks hashes offline using GPU clusters or cloud rigs.
-* 
+
+
+##### 
 
 
 
