@@ -143,7 +143,12 @@ When another user loads the page, the malicious script executes in their browser
 * Data once hashed is non-reversible.
 * Hash function is used to map data of arbitory size to data of fixed size.
 * The data structure <ins> HASH TABLE </ins> is used for storing data.
-  
+
+##### Authentication RElated Vulnerabilities:
+They are flaws in the process of verifying a user's  identity that allow an attacker to bypass security.
+
+##### Common Types of Authentication Vulnerabilities:
+      * Brute force           * Paswword storage and password polciy
     
 
 
