@@ -148,8 +148,62 @@ When another user loads the page, the malicious script executes in their browser
 They are flaws in the process of verifying a user's  identity that allow an attacker to bypass security.
 
 ##### Common Types of Authentication Vulnerabilities:
-      * Brute force           * Paswword storage and password polciy
+      * Brute force           * Paswword storage  * password polciy
     
+##### Brute force 
+##### defination :
+Lack of rate limiting on login attempts allows attackers to repeatedly guess credentials until they succeed. 
+> There are several variants, each with distinct behaviors and detection patterns.
+##### Variants of brute force:
+##### a) Simple burte force:
+* attacker guesses the passwords for a single user account by trying all possible combinations.
+* Usually automated with tools like
+>    * Hydra  * Burp Suite Intruder  * John the Ripper
+* Works best when:
+* the password police allsow short or weak passwords.
+* there are no account lockouts or rare limits.
+* Responses are consistent (no Captcha or time delay).
+***Mitigation:***
+* Rate limiting (e.g., max 5 attempts/minute per user/IP).
+
+* Progressive delays (exponential backoff after each failed attempt).
+
+* CAPTCHA after repeated failures.
+
+* Multi-Factor Authentication (MFA).
+
+#####  B) Password Spraying:
+  * Instead of attacking one user with many passwords, the attacker uses a few common passwords accross many accounts.
+
+***Mitigation:***
+* Monitor for many failed logins accross multiple accounts from a single IP.
+* Require complex or passphrase-style passwords.
+* Enforce MFA on all accounts.
+* Implement adaptive authentication (flag unusual login velocity).
+
+##### c) Credential Suffing:
+* The attacker uses username-password pairs leaked from another breach.
+* Works because many users reuse passwords across sites.
+ ***Mitigation:***
+* Check neew passwords against breach databases.
+* Enforce unique passwords for each system.
+* Implement MFA.
+* Detect repeated failed attempts using known breached passwords.
+
+##### d) Hybrid/dictionary 
+* Combines dictionary words with simple mutations (adding numbers or symbols).
+***Mitigations:***
+  * Block weak/common passwords.
+  * Use slow hashing algorithms to make offline brute-forcing impractical.
+
+##### e) Offline Brute Forece:
+* happens after a data breach where password hashes are stolen.
+* Attacker cracks hashes offline using GPU clusters or cloud rigs.
+* 
+
+
+
+
 
 
 
