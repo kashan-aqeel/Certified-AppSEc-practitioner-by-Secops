@@ -1,4 +1,4 @@
-# Certified AppSEc practitioner by-SecOps
+# ♥  Certified  ♥  ♥ AppSEc practitioner by-SecOps ♥
 
 ## Input Validation Mechanisms
 
@@ -112,8 +112,9 @@ When another user loads the page, the malicious script executes in their browser
 
    <img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/23ac7060-391c-4398-b6ac-6f1d045d4ca7" />
 
-#### Hashing/Encoding?encryption
-
+#### Hashing/Encoding/encryption
+♦☺╝          ▐ ☺╤╤♂ •▬ ♣§        !   ♥╒╤○•♦☺♣│╟☺
+♦☺╝          ▐ ☺╤╤♂ •▬ ♣§        !   ♥╒╤○•♦☺♣│╟☺
 <img width="1230" height="811" alt="image" src="https://github.com/user-attachments/assets/99e279f8-2798-4693-b943-d7944ef674ea" />
 
 #### Encryption :
@@ -201,7 +202,7 @@ Lack of rate limiting on login attempts allows attackers to repeatedly guess cre
 * Attacker cracks hashes offline using GPU clusters or cloud rigs.
 
 
-##### 
+#####♥ 
 
 
 
